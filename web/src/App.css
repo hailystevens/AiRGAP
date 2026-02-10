@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-header {
+  max-width: 800px;
+  padding: 2rem;
+}
+
+.App-header h1 {
+  font-size: 4rem;
+  margin: 0;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.App-header h2 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0 2rem 0;
+  font-weight: 300;
+  opacity: 0.9;
+}
+
+.status-indicator {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  backdrop-filter: blur(10px);
+}
+
+.status-indicator p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.status-indicator .online {
+  color: #4ade80;
+  font-weight: 600;
+}
+
+.status-indicator .offline {
+  color: #fbbf24;
+  font-weight: 600;
+}
+
+.info {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.info p {
+  margin: 0.5rem 0;
+}
