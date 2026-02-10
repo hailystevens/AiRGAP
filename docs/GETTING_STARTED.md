@@ -122,5 +122,5 @@ Follow the Expo instructions to:
 ## Next Steps
 
 - Read the [Architecture Documentation](./ARCHITECTURE.md)
-- Learn about [Model Integration](./docs/MODEL_INTEGRATION.md)
+- Learn about [Model Integration](./MODEL_INTEGRATION.md)
 - Check out the [API Documentation](http://localhost:8000/docs) (when backend is running)
